@@ -4,4 +4,3 @@ if number1 >= 0 or number2 >= 0:
     print("At least one of the numbers is positive")
 else:
     print("Both of the numbers are negative")
-    
