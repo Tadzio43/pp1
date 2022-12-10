@@ -1,0 +1,11 @@
+file = open("imienazwisko.txt","w")
+file.write("Michał \n")
+file.write("Witek \n")
+file.write("Uniwersytet Ekonomiczny w Krakowie \n")
+file.write("Informatyka Stosowana")
+file.close()
+file = open("imienazwisko.txt","r")
+file_content = file.read()
+print( file_content )
+file.close()
+
